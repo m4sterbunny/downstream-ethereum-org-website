@@ -671,6 +671,17 @@ const chains = [
     chain: "Dogether",
   },
   {
+    name: "Perennial",
+    infoURL: "https://perennial.finance",
+    chainId: 1424,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "perennial",
+  },
+  {
     name: "ZKBase Mainnet",
     infoURL: "https://zkbase.org/",
     chainId: 1456,
@@ -1026,6 +1037,17 @@ const chains = [
     name: "Superseed",
     infoURL: "https://www.superseed.xyz",
     chainId: 5330,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
+    name: "Settlus",
+    infoURL: "https://settlus.org",
+    chainId: 5371,
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",
@@ -1430,17 +1452,6 @@ const chains = [
     chain: "Liveplex OracleEVM Network",
   },
   {
-    name: "Reddio Devnet",
-    infoURL: "https://www.reddio.com",
-    chainId: 50341,
-    nativeCurrency: {
-      name: "Red",
-      symbol: "RED",
-      decimals: 18,
-    },
-    chain: "ETH",
-  },
-  {
     name: "BirdLayer",
     infoURL: "https://www.dodochain.com",
     chainId: 53456,
@@ -1661,17 +1672,6 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "Plume Devnet",
-    infoURL: "https://plumenetwork.xyz/",
-    chainId: 98864,
-    nativeCurrency: {
-      name: "Plume Sepolia Ether",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    chain: "ETH",
-  },
-  {
     name: "Plume (Legacy)",
     infoURL: "https://plumenetwork.xyz/",
     chainId: 98865,
@@ -1680,7 +1680,7 @@ const chains = [
       symbol: "ETH",
       decimals: 18,
     },
-    chain: "ETH",
+    chain: "PLUME Legacy",
   },
   {
     name: "re.al",
@@ -1692,6 +1692,17 @@ const chains = [
       decimals: 18,
     },
     chain: "re.al",
+  },
+  {
+    name: "Eventum Mainnet",
+    infoURL: "https://evedex.com",
+    chainId: 161803,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "Eventum",
   },
   {
     name: "Taiko Alethia",
@@ -2267,6 +2278,17 @@ const chains = [
       decimals: 18,
     },
     chain: "ETH",
+  },
+  {
+    name: "Yominet",
+    infoURL: "https://www.kamigotchi.io/",
+    chainId: 428962654539583,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "YOMINET",
   },
   {
     name: "DCHAIN",
